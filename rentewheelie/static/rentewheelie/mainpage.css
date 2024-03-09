@@ -1,0 +1,198 @@
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+.header-container {
+    z-index: 100;
+    padding: 15px;
+    background-color: rgb(207, 117, 200);
+    font-size: 30px;
+    margin-top: 20px;
+    color: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.company-logo {
+    margin-left: 50px;
+}
+
+
+.left-corner-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 600px;
+
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+}
+
+
+.contact:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+
+.our-fleet {
+    text-decoration: none;
+    color: black;
+}
+
+
+.our-fleet:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+
+.about {
+    text-decoration: none;
+    color: black;
+}
+
+
+.about:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+.right-corner-container {
+    display: flex;
+    width: 100px;
+    flex-direction: row;    
+
+}
+
+
+.turkish-flag {
+    width: 50px;
+}
+
+.uk-flag {
+    width: 50px;
+}
+
+
+
+.main-content-container {
+    margin-top: 105px;
+    background: white url("images/landscape-contry-road-travel-destination-rural-concept.jpg") no-repeat;
+    display: flex;
+    flex-direction: row;
+    height: 1200px;
+   
+   
+}
+
+
+.motto {
+    font-family: 'Caveat', cursive;
+    font-size: 150px;
+    line-height: 0px;
+    margin-left: 50px;
+   
+    
+    
+}
+
+.motto-line2 {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.motto-line3 {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+
+.reservation-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    margin-left: 400px;
+    width: 700px;
+    height: 300px;
+    background-color:white;
+    font-size: 30px;
+    border-radius: 5px;
+    opacity: 0.7;
+    
+    
+    
+}
+
+.pick-up {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.drop-off {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.input-box {
+    padding: 15px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+
+.search-button {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(187, 223, 213);
+    border-radius: 5px;
+    font-size: 25px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+    color: red;    
+}
+
+
+
+
+
+
+
+

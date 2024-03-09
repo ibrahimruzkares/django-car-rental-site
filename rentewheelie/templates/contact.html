@@ -1,0 +1,12 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <form method="post">
+            {% csrf_token %}
+            {{ form | crispy }}
+            <button type="submit" onclick="location.href = 'deneme'">Submit</button>
+        </form>
+    </body>
+</html>

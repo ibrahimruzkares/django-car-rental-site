@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Car rental application</title>
+        <link rel="stylesheet" href="{% static 'rentewheelie/mainpage.css' %}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> 
+    </head>
+    <body> 
+        <div class="header-container">
+            <div class="company-logo"><img src="{% static 'rentewheelie/images/avec-moi.png' %}" alt=""></div>
+            <div class="left-corner-container">
+                <div> <a  class="about" href="{% url 'about' %}">About</a></div>
+                <div> <a class="our-fleet" href="{% url 'our_fleet' %}">Our fleet</a></div>
+                <div> <a  class="contact" href="{% url 'contact' %}">Contact</a></div>
+            </div>
+            <div class="right-corner-container">
+                <div class="turkish-flag" ><img src="{% static 'rentewheelie/images/turkish-flag.png' %}" alt=""></div>
+                <div class="uk-flag" ><img src="{% static 'rentewheelie/images/uk-flag.png' %}" alt=""></div>
+            </div>   
+        </div>
+        <div class="main-content-container">
+            <div class="motto">
+                <p class="motto-line1">Where</p>
+                <p class="motto-line2">journey</p>
+                <p class="motto-line3">begins...</p>
+            </div>
+            
+            <div class="reservation-section">
+                <div class="pick-up">
+                    <p>Pick up:&nbsp;</p>
+                    <input class="input-box" type="text" placeholder="Select pick-up location">
+                    <p>Date:</p>
+                    <input class="input-box" type="date" placeholder="Select a date">
+                </div>
+                <div class="drop-off">
+                    <p>Drop off: </p>
+                    <input class="input-box" type="text" placeholder="Select drop-off location">
+                    <p>Date:</p>
+                    <input class="input-box" type="date" placeholder="Select a date">
+                </div>
+                <div>
+                    <button class="search-button">Search Availability</button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>
